@@ -6,7 +6,13 @@
     <div class="row g-4">
         <div class="col">
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, delectus ad esse illum omnis earum eligendi sint a minus quasi, inventore nulla autem. Maxime voluptatem eligendi veniam voluptates. Soluta, sunt!</p>
+                <h1>CONTENT MAIN</h1>
+                <div>
+                    @foreach ($movies as $movie)
+                        <p>{{$movie}}</p>
+                    @endforeach
+
+                </div>
             </div>
         </div>
     </div>
